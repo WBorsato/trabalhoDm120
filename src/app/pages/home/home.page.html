@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Smart Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <p style="text-align: center;">Monitoramento de parâmetros</p>
+  <p style="text-align: center;">
+    <ion-card>
+      <ion-card-content style="text-align: center; font-size:2 rem;" (click)="goToTempPage()">
+        <ion-icon name='thermometer' color="primary">
+        </ion-icon>Temperatura
+      </ion-card-content>
+    </ion-card>
+  </p>
+  <p style="text-align: center;">
+    <ion-card>
+      <ion-card-content style="text-align: center; font-size:2 rem;" (click)="goToUmidPage()">
+        <ion-icon name='rainy' color="primary">
+        </ion-icon>Umidade
+      </ion-card-content>
+    </ion-card>
+  </p>
+  <p style="text-align: center;">
+    <ion-card>
+      <ion-card-content style="text-align: center; font-size:2 rem;" (click)="goToLumiPage()">
+        <ion-icon name='sunny' color="primary">
+        </ion-icon>Luminosidade
+      </ion-card-content>
+    </ion-card>
+  </p>
+  <p style="text-align: center;">
+    <ion-card>
+      <ion-card-content style="text-align: center; font-size:2 rem;" (click)="goToColorPage()">
+        <ion-icon name='sunny' color="primary">
+        </ion-icon>Cor Atual
+      </ion-card-content>
+    </ion-card>
+  </p>
+  <p style="text-align: center;">
+    <ion-card>
+      <ion-card-content style="text-align: center; font-size:2 rem;" (click)="goToBuzzerPage()">
+        <ion-icon name='sunny' color="primary">
+        </ion-icon>Status Buzzer
+      </ion-card-content>
+    </ion-card>
+  </p>
+</ion-content>
